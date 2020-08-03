@@ -16,7 +16,7 @@ $blue_color: #0000FF;
  .navItem{
 			   	
 				
-				margin-left: 20px !important ;
+			margin-left: 20px !important ;
 				padding-top: auto !important;
 				font-size: 18px !important;
 				font-weight:bold !important;
@@ -33,6 +33,14 @@ $blue_color: #0000FF;
 }
 
 
-@media screen and (max-width: 600px){
-	
+@media screen and (max-width: 780px){
+	.navItem{
+			   	
+		margin: auto !important ;
+
+	}
+	.timerDisplay{
+		margin: auto !important ;
+	}
+
 }
